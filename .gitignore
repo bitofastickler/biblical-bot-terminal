@@ -1,0 +1,13 @@
+# Ignore model files
+models/
+*.gguf
+
+# Ignore Python environment
+venv/
+.env/
+*.pyc
+__pycache__/
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
