@@ -6,47 +6,14 @@ The bot automatically builds a searchable vector store from the provided Bible t
 
 
 ✨ Features
-📖 Bible-Only Answers – All responses are drawn directly from the provided Biblical text.
+1. 📖 Bible-Only Answers – All responses are drawn directly from the provided Biblical text.
 
-🛠 Offline Capability – No external connections required after model download.
+2. 🛠 Offline Capability – No external connections required after model download.
 
-🔍 Semantic Search – Finds relevant verses, even with fuzzy queries.
+3. 🔍 Semantic Search – Finds relevant verses, even with fuzzy queries.
 
-💬 Natural Language Summaries – Understand Scripture passages quickly.
+4. 💬 Natural Language Summaries – Understand Scripture passages quickly.
 
-📦 Installation
-Clone the repository
-
-bash
-Copy code
-git clone https://github.com/YOUR_USERNAME/biblical-bot-terminal.git
-cd biblical-bot-terminal
-Install dependencies
-
-bash
-Copy code
-pip install -r requirements.txt
-Add your Bible text file
-Place your JSON Bible data into the data/ folder.
-
-Run the app
-
-bash
-Copy code
-python main.py
-🚀 Usage
-When prompted, type your question:
-
-perl
-Copy code
-What does the Bible say about forgiveness?
-The bot will:
-
-Search relevant verses in your Bible dataset
-
-Summarize the answer in plain language
-
-Provide exact verse citations
 
 ⚠️ Model Download
 On first run, the bot will automatically download the appropriate small LLM file into models/.
