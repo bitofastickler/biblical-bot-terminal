@@ -1,5 +1,5 @@
 # Offline Biblical Bot
-## A simple, offline Bible study assistant that runs entirely on your local machine—no API keys, accounts, or internet required.
+## A simple, offline Bible study assistant that runs entirely on your local machine—no API keys, accounts, or internet required (after initial model download).
 ### This app uses a compact local language model combined with a Biblical knowledge base to answer your questions directly from Scripture.
 
 The bot automatically builds a searchable vector store from the provided Bible text and uses a locally stored LLM to respond with relevant verses and summaries. Perfect for private, distraction-free study.
